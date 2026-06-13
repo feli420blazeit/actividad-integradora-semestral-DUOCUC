@@ -3,8 +3,7 @@ os.system ("cls")
 
 libros = []
 
-def limpiar():
-    os.system("cls")
+
 
 def agregar_libro():
     titulo = input("Ingrese el titulo del libro: ")
