@@ -2,6 +2,7 @@ from functions import *
 
 limpiar()
 
+opcion = 0
 def mostrar_menu():
     print("===== BIBLIOTECA =====")
     print("1. Agregar libro")
@@ -14,7 +15,6 @@ def mostrar_menu():
     print("8. Mostrar estadisticas")
     print("9. Salir")
 
-opcion = 0
 while opcion != 9:
     mostrar_menu()
     opcion = int(input("Seleccione una opcion: "))
