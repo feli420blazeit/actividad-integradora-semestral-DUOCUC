@@ -11,7 +11,7 @@ def mostrar_menu():
     print("5. Devolver libro")
     print("6. Eliminar libro")
     print("7. Modificar libro")
-    print("8. Mostrar estadisticas")
+    print("8. Mostrar estadsticas")
     print("9. Salir")
 
 opcion = 0
