@@ -26,7 +26,6 @@ def mostrar_libros():
         print("No hay libros registrados.")
         return
     print("\nLista de libros:")
-    print("-" * 40)
     for i, libro in enumerate(libros, 1):
         if libro["disponible"]:
             estado = "Disponible"
