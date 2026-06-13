@@ -1,4 +1,5 @@
-import os
+import os 
+os.system ("cls")
 
 libros = []
 
