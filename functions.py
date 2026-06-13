@@ -35,7 +35,7 @@ def mostrar_libros():
         print(f"{i}. Titulo: {libro['titulo']}")
         print(f"   Autor: {libro['autor']}")
         print(f"   Estado: {estado}")
-        print("-" * 40)
+    
 
 def buscar_libro():
     titulo = input("Ingrese el titulo a buscar: ")
