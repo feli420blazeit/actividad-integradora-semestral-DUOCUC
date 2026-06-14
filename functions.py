@@ -1,9 +1,6 @@
 import os 
-os.system ("cls")
 
 libros = []
-
-
 
 def agregar_libro():
     titulo = input("Ingrese el titulo del libro: ")
