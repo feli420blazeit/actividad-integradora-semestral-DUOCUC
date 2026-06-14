@@ -1,7 +1,5 @@
-from functions import *
-
-limpiar()
-
+import os 
+os.system ("cls")
 opcion = 0
 def mostrar_menu():
     print("===== BIBLIOTECA =====")
